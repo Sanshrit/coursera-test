@@ -15,7 +15,9 @@ h2{
 	color: black;
 	border: 1px solid black;
 	margin: 10px;
+	
 }
+/* large devices*/
 @media (min-width:992px){
 	.box1{
 float: left;
@@ -34,7 +36,7 @@ width:30%
 @media (min-width:768px) and (max-width:991px){
 	.box1{
 		float: left;
-		width:48%;
+		width:47%;
 			}
 			.box2{
 		float: right;
@@ -48,7 +50,7 @@ width:30%
 }
 #chicken{
 	color:black;
-text-align: right;
+text-align: center;
 border: 1px solid black;
 padding: 4px;
 float:right;
@@ -57,11 +59,12 @@ width: 68px;
 	border-top: none;
 	border-right: none;
 	background-color: pink;
+	font-size: 20px;
 	
 }
 #beef{
 	color :white;
-text-align: right;
+text-align: center;
 border: 1px solid black;
 padding: 4px;
 float: right;
@@ -69,12 +72,13 @@ width: 68px;
 	height: 30px;
 	border-top: none;
 	border-right: none;
-	background-color:red;
+	background-color:rgb(235, 66, 66);
+	font-size: 20px;
 }
 
 #Sushi{
 	color: black;
-text-align: right;
+text-align: center;
 border: 1px solid black;
 padding: 4px;
 float: right;
@@ -82,8 +86,16 @@ width: 68px;
 	height: 30px;
 	border-top: none;
 	border-right: none;
-	background-color: yellow;
+	background-color: rgb(252, 252, 146);
+	font-size:20px;
 }
 #cont{
 	border: 1px solid black;
+}
+p{
+	text-align: justify;
+	padding: 25px;
+}
+body{
+	background-color:#123456;
 }
